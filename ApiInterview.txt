@@ -39,9 +39,47 @@ Q #1). What are web services?
            Envelope element is the topmost tag which identifies the XML document as a SOAP message.
            Header element that has header information. 
            The Body element specifies the call and response information.
-           Fault element which contains errors and status information.       
-  
+           Fault element which contains errors and status information.  
+           
+ Q #8).    What we can do with the help of SoapUI?
+           SoapUI offers us to perform automation testing which includes functional testing, load testing and Data Driven testing.
+           It also provides in build reporting tool and export test results log provision
+           We assert our services using various types of assertions.
  
+ Q #9).  What is the basic method to automate web services in Soap?
+         Create a project and add the WSDL file
+         Add test suites, Test cases and Test cases- in that order
+         Include custom programming/validation using by adding Groovy steps
+         Call external data sources if using
+         Add assertions if necessary
+         Then RUN.
+         
+Q #10) . What are the major types of assertions available in SoapUI?
+         Assertions are one of the major features in SoapUI. It offers the following types of assertions.
+         Contains & Not Contains
+         Soap Faults
+         Response SLA
+         XPath Match
+         XQuery Match
+         Script Assertion
+         
+         
+         
+
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
  
  
  
