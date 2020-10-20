@@ -5,5 +5,32 @@ Q #1). What are web services?
        E.g  If we want to access a particular location using Google Maps,we can use the corresponding web service URL.
        
  Q #2). What is the primary challenge when testing web services?
-       Majority of the functional testing is carried out via the GUI, the biggest challenge of web services is that they do not have a UI.
+        Majority of the functional testing is carried out via the GUI, the biggest challenge of web services is that they do not have a UI.
+        
+ Q #3). What is WSDL?
+       WSDL stands for Web Service Description Language and is a document written in XML. It uses XML to define the service layer document which consists of
+       origin of the web service, headers, port types, request and response data. This one can provide the information about web methods and web service.
+       It describes:
+        Origin of the web service
+        Header information
+        Port type
+        Input and output messages
+       
+       
+  Q #4) . What is the role of WSDL document in web service testing?
+          Validating web services in only possible with WSDL document because to configure web services in SoapUI, WSDL document is mandatory.
+          If the WSDL document is not valid, SoapUI will throw an exception immediately.
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
   
