@@ -4,6 +4,6 @@ Q #1). What are web services?
        with the web-based applications through XML messaging concepts.
        E.g  If we want to access a particular location using Google Maps,we can use the corresponding web service URL.
        
-
-       
+ Q #2). What is the primary challenge when testing web services?
+       Majority of the functional testing is carried out via the GUI, the biggest challenge of web services is that they do not have a UI.
   
