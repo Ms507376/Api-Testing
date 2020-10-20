@@ -8,9 +8,9 @@ Q #1). What are web services?
         Majority of the functional testing is carried out via the GUI, the biggest challenge of web services is that they do not have a UI.
         
  Q #3). What is WSDL?
-       WSDL stands for Web Service Description Language and is a document written in XML. It uses XML to define the service layer document which consists of
-       origin of the web service, headers, port types, request and response data. This one can provide the information about web methods and web service.
-       It describes:
+        WSDL stands for Web Service Description Language and is a document written in XML. It uses XML to define the service layer document which consists of
+        origin of the web service, headers, port types, request and response data. This one can provide the information about web methods and web service.
+        It describes:
         Origin of the web service
         Header information
         Port type
@@ -20,6 +20,54 @@ Q #1). What are web services?
   Q #4) . What is the role of WSDL document in web service testing?
           Validating web services in only possible with WSDL document because to configure web services in SoapUI, WSDL document is mandatory.
           If the WSDL document is not valid, SoapUI will throw an exception immediately.
+          
+  Q #5) . What would be the message format of SOAP protocol?
+          <?xml version=”1.0??>
+          <soap:Envelope xmlns:soap=”http://www.example.com/soap-envelope”>
+          <soap:Header>
+          </soap:Header>
+          <soap:Body>
+         <m:TutorialName>SoapUI</m:TutorialName>
+         </soap:Body>
+         </soap:Envelope>
+         
+         
+   Q #6). What are the advantages of SOAP?
+          Since its XML based, it is platform and programming language independent.
+          
+   Q #7).  What does a soap document contain?
+           Envelope element is the topmost tag which identifies the XML document as a SOAP message.
+           Header element that has header information. 
+           The Body element specifies the call and response information.
+           Fault element which contains errors and status information.       
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
        
        
        
