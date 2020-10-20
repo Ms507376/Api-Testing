@@ -1,2 +1,9 @@
-Q #1. What are web services?
-Ans. Web services are web components that transfer data between client and server.The client sends a web request to the server and the server then responds to the client. The response and request are related and different requests evoke the corresponding response.
+Q #1). What are web services?
+       Web services are web components that transfer data between client and server.The client sends a web request to the server and the server then
+       responds to the client.Web Service is a web component or software program that can be accessed on the Internet. It is mainly used to communicate
+       with the web-based applications through XML messaging concepts.
+       E.g  If we want to access a particular location using Google Maps,we can use the corresponding web service URL.
+       
+
+       
+  
