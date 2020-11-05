@@ -63,17 +63,7 @@ Q #10) . What are the major types of assertions available in SoapUI?
          XQuery Match
          Script Assertion
          
-         
-         
-1. What is an API?
-An API (Application Programming Interface) is a software intermediary that enables two applications to communicate with each other.
-        API examples, here are the well-known ones: Google Maps API, Amazon Advertising API, Twitter API, YouTube API, etc. 
-         
-         
-         
-         
-         
-         
+  
          
          
          
